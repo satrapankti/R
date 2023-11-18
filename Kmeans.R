@@ -1,5 +1,5 @@
 
-Universities<-read.csv("E:/ExcelR/Data Science(Andheri-Sadanand-Chirag)(21st Aug 2021)/Data Set Files/8.Universities.csv")
+Universities<-read.csv("/Universities.csv")
 
 # Elbow method
 install.packages("factoextra")
