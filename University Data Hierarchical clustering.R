@@ -1,7 +1,7 @@
 install.packages("factoextra")
 library("factoextra")
 #Data load
-mydata1<-read.csv("E:/ExcelR/Data Science(Andheri-Sadanand-Chirag)(21st Aug 2021)/Data Set Files/8.Universities.csv")
+mydata1<-read.csv("/Universities.csv")
 
 ################################
 ##data standardization
