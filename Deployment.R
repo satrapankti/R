@@ -19,7 +19,7 @@ ui <- fluidPage(
 server <- function(input, output) {
   output$distplot <- renderTable({
     
-    Cars <- read.csv("E:/ExcelR/Data Science(Andheri-Sadanand-Chirag)(21st Aug 2021)/Data Set Files/8.Cars.csv")
+    Cars <- read.csv("/Cars.csv")
     
     model.car <- lm(MPG~.,data = Cars)
     nw = data.frame(HP = input$num,VOL = input$num1,SP = input$num2,WT = input$num3)
