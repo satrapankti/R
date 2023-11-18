@@ -8,7 +8,7 @@ library(recommenderlab)
 library(Matrix)
 library(caTools)
 #movie rating data
-movie_rate_data <- read.csv("E:/ExcelR/Data Science(Andheri-Sadanand-Chirag)(21st Aug 2021)/Data Set Files/10.Movie.csv")
+movie_rate_data <- read.csv("/Movie.csv")
 #metadata about the variable
 #movie_rate_data<-Movie
 str(movie_rate_data)
